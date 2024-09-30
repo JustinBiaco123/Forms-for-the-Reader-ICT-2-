@@ -1,0 +1,54 @@
+<html> 
+<head> <title> Forms </title> </head>
+<body background="Forms Background.jpg">
+<font color="yellow">
+<h2 align="center"> Form for the Reader </h2>
+<p> <b> Note: Everything is required to be answered unless stated otherwise </b> </p>
+<form action="mailto:justinbiaco@gmail.com" method="post">
+    Name/Username: <input type="text" name="entername"> <br/> <br/>
+    Address (optional): <input type="text" name="textbox1"> <br/> <br/>
+    Date: <input type="date" name="date"> <br/> <br/>
+    Birthdate: <input type="date" name="birthdate"> <br/> <br/>
+    Gender: <input type="radio" name="gender" value="Male"> Male 
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Prefer not to say"> Prefer not to say <br/> 
+
+    <h4 align="left"> Please choose your favorite genre/s of movies:</h4>
+    <table border="1" width="20%">
+        <tr><td><input type="checkbox" name="pictype[]" value="Comedy">Comedy</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Horror">Horror</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Romance">Romance</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Action">Action</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Science Fiction">Science Fiction</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Documentary">Documentary</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Drama">Drama</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Animation/Animated">Animation/Animated</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Musical">Musical</td></tr>
+        <tr><td><input type="checkbox" name="pictype[]" value="Historical">Historical</td></tr>
+    </table>
+    <br/> <br/>
+    
+    Please attach a picture of your favorite thing/s in the world (can be anything): <br/> 
+    <input type="file" name="favorite" accept="image/*"> <br/> <br/>
+    
+    <textarea name="whoisyourfavoritepokemon" rows="3" cols="20">Please tell me who your favorite pokemon is.</textarea> <br/> <br/>
+    
+    Satisfaction for the website: <br/>
+    <select name="select" size="3">
+        <option value="very satisfied">Very Satisfied</option>
+        <option value="satisfied">Satisfied</option>
+        <option value="fine">Fine</option>
+        <option value="meh">Meh</option>
+        <option value="dissatisfaction">Dissatisfaction</option> 
+    </select> <br/> <br/>
+    
+    <textarea name="suggestion/feedbacks" rows="5" cols="30">Please give me suggestions or feedbacks that can improve my website.</textarea> <br/> <br/>
+    
+    <p align="center">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </p>
+</form>
+</font>
+</body>
+</html>
